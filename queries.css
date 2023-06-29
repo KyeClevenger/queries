@@ -1,0 +1,39 @@
+
+ /* the following is for when the view is past mobile */
+ @media (min-width: 640px){
+    /* we will set these stylings only if the device is a screen with a width of 640px or more */
+    .navbtn {
+        background-color: yellow;
+    }
+  }
+  
+  /* the following is for when the view is past tablet size */
+  @media (min-width: 768px){
+    /* we will set these stylings only if the device is a screen with a width of 768px or more */
+    .navbtn {
+        background-color: blue;
+    }
+    .fun-fact{
+        display: block;
+    }
+    aside{
+        flex: 1;
+    }
+    main {
+        flex: 2;
+    }
+  }
+  
+  /* the following is for when the view is past larger desktop sizes */
+  @media (min-width: 1024px){
+    /* we will set these stylings only if the device is a screen with a width of 1024px or more */
+    .navbtn {
+        background-color:rgb(22, 243, 44);
+    }
+    aside{
+        flex: 2;
+    }
+    main {
+        flex: 3;
+    }
+  }

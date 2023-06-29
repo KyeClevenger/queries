@@ -1,0 +1,30 @@
+h1{
+    color:red;
+}
+
+ul{
+    display: flex;
+
+    width: 500px;
+
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+}
+
+section{
+    display: flex;
+    /* justify-content: space-between;
+    align-items: flex-start; */
+
+}
+
+.fun-fact{
+    display: none
+}
+
+.navbtn{
+    background-color: red;
+}
